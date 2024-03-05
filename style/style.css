@@ -21,6 +21,23 @@ body {
   color: white;
 }
 
+.hamburger {
+  height: 30px;
+  width: 30px;
+  display: block;
+}
+ 
+.hamburger span {
+background-color: white;
+height: 3px;
+width: 100%;
+color: white;
+display: block;
+margin-top: 6px;
+margin-bottom: 7px;
+}
+
+
 
 .social-img {
   width: 45px;
