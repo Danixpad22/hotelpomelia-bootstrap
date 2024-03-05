@@ -1,0 +1,135 @@
+@media only screen and (max-width: 450px) {
+.top-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+}
+
+body {
+  font-family: opensans,arial;
+}
+
+.navbar a {
+  font-size: 20px;
+  color: white;
+}
+
+
+.social-img {
+  width: 45px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.container-social {
+  display: flex;
+  justify-content: end;
+}
+
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(19, 77, 19);
+}
+
+.contact {
+  display: flex;
+}
+
+.contact-link,
+.telephone {
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+}
+
+.social {
+  padding-right: 10px;
+}
+
+.container-green {
+  border-radius: 10px;
+  background-color: #FFBD59;
+  text-align: justify;
+}
+
+.hotel-pomelia-title {
+  text-align: center;
+  color:rgb(19, 77, 19);
+
+}
+
+.hotel-pomelia-description {
+  color:rgb(19, 77, 19);
+}
+
+.photo-img {
+  width: 100%;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+
+.photo-container-img {
+  display: flex;
+  flex-direction: column;
+}
+
+.eco-hotel-title {
+  text-align: center;
+}
+
+.how-it-works {
+  border-radius: 10px;
+  text-align: justify;
+  background-color: #FFBD59;
+  ;
+}
+
+.eco-hotel-title {
+  color:rgb(19, 77, 19);
+
+}
+
+.eco-hotel-info {
+  color:rgb(19, 77, 19);
+
+}
+
+.btn-book {
+  background-color: #FFBD59;
+  color: rgb(13, 129, 67);
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.171);
+  font-size: 28px;
+  border-radius: 10px;
+  border-style: none;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  margin-bottom: 12px;
+}
+
+.btn-book:hover {
+  opacity: 0.8;
+}
+
+.btn-book:active {
+  opacity: 0.4;
+}
+
+.img-contact-us-photo {
+  width: 350px;
+}
+
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
